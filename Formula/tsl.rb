@@ -4,7 +4,7 @@ class Tsl < Formula
   homepage "https://github.com/soomtong/tsl"
   url "https://github.com/soomtong/tsl/releases/download/v0.1.0/tsl-macos.tar.gz"
   version "0.1.0"
-  sha256 "f4e9a8a630f5efbd8460a691d4e3c4e38ddf07c447206984c1521b973343d45e"
+  sha256 "27723d8e2acdff9d23ca4d48d1d61530b5de88a75e090247403ad7b149200bf6"
   license "MIT"
 
   def install
