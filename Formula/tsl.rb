@@ -2,9 +2,9 @@
 class Tsl < Formula
   desc "Translate CLI powered by Effect/AI"
   homepage "https://github.com/soomtong/tsl"
-  url "https://github.com/soomtong/tsl/releases/download/v0.2.1/tsl-macos.tar.gz"
-  version "0.2.1"
-  sha256 "0dd74ed26228c7c101ab728106b3c37d5851d648abccbc7389aabaf48f93b5c6"
+  url "https://github.com/soomtong/tsl/releases/download/v0.3.0/tsl-macos.tar.gz"
+  version "0.3.0"
+  sha256 "2fddae7258cb36fd0c4243cd7d8614cec2a0ca23023cb447f8142a270606a256"
   license "MIT"
 
   def install
