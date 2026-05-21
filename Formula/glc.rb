@@ -1,13 +1,14 @@
 class Glc < Formula
   desc "Git history file viewer - TUI for exploring files from git history"
   homepage "https://github.com/soomtong/gluck"
-  url "https://github.com/soomtong/gluck/releases/download/v0.1.0/glc-macos.tar.gz"
-  version "0.1.0"
-  sha256 "483f4cabf5adc8c12db01cea2e1c13035e24ae00ccbfaba4cfa5bce0fcefb6d0"
+  url "https://github.com/soomtong/gluck/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "68d9bbe7cbc1168cb706e648f28082dbe36b36a9a4362e8e292cd6f6ddb2b68f"
   license "MIT"
 
+  depends_on "rust" => :build
+
   def install
-    bin.install "glc"
+    system "cargo", "install", *std_cargo_args
   end
 
   test do
