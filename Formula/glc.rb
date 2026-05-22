@@ -1,9 +1,9 @@
 class Glc < Formula
   desc "Git history file viewer - TUI for exploring files from git history"
   homepage "https://github.com/soomtong/gluck"
-  url "https://github.com/soomtong/gluck/releases/download/v0.2.1/glc-arm64-darwin.tar.gz"
-  version "0.2.1"
-  sha256 "02b4ef7717030ed9bde079a4789bce9cbedc97b0a0e8d628e9f33c2bef2e5336"
+  url "https://github.com/soomtong/gluck/releases/download/v0.3.0/glc-arm64-darwin.tar.gz"
+  version "0.3.0"
+  sha256 "badc4f5e9e84696cd553749eb6741a125d395bc2894ac72f1a1a44ca90de5b12"
   license "MIT"
 
   def install
