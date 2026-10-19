@@ -1,11 +1,11 @@
 # Bumped via `make release` in soomtong/Voxio (private repository)
 cask "voxio" do
-  version "1.0.1"
-  sha256 "b0e49f70f05f77a432f2d136bc0d02045876240bdf0aab2cd6767a45142be193"
+  version "1.1.0"
+  sha256 "ece5109e622fb761c7196825c9b7efbe24e11f5f1ad0f9d6158dffd60a783286"
 
   # The source repository is private, so the browser download URL returns 404.
   # Fetch the release asset through the REST API with a token that can read it.
-  url "https://api.github.com/repos/soomtong/Voxio/releases/assets/588338874",
+  url "https://api.github.com/repos/soomtong/Voxio/releases/assets/655384014",
       header: [
         "Accept: application/octet-stream",
         "Authorization: Bearer #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN", "")}",
