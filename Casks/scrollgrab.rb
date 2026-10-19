@@ -1,11 +1,11 @@
 # Bumped via `make release` in soomtong/ScrollGrab (private repository)
 cask "scrollgrab" do
-  version "1.0.1"
-  sha256 "81eca988946807bb00d7dd67c3f54922e206a4b91d0427a610567dcfd3310ef5"
+  version "1.1.0"
+  sha256 "5eea3783a029877776e529132f0d697a9401a25d1e7aec65808db5d82d5f194c"
 
   # The source repository is private, so the browser download URL returns 404.
   # Fetch the release asset through the REST API with a token that can read it.
-  url "https://api.github.com/repos/soomtong/ScrollGrab/releases/assets/588343765",
+  url "https://api.github.com/repos/soomtong/ScrollGrab/releases/assets/655504910",
       header: [
         "Accept: application/octet-stream",
         "Authorization: Bearer #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN", "")}",
