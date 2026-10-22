@@ -1,13 +1,13 @@
 cask "kornflake" do
-  version "0.3.1"
+  version "0.4.0"
 
   on_arm do
-    sha256 "4561e8c582b4e18ab60fae2ab249313a27923615529cedf9e87f309bbd86526e"
-    url "https://github.com/soomtong/kornflake/releases/download/v0.3.1/Kornflake-0.3.1-arm64.dmg"
+    sha256 "6a6b19a0e9804ec9a752b392fe25b0fe1e875f1f6adabf3fa94c88b54e2077ab"
+    url "https://github.com/soomtong/kornflake/releases/download/v0.4.0/Kornflake-0.4.0-arm64.dmg"
   end
   on_intel do
-    sha256 "cc5f87841afb51f2aab888596bcea802ebc017e7780833a8693e3a2db0f6148f"
-    url "https://github.com/soomtong/kornflake/releases/download/v0.3.1/Kornflake-0.3.1-x86_64.dmg"
+    sha256 "380c8fd6ab955ffb9b82b1514e87cdddaefdb202818acd92a29be534ef3b0502"
+    url "https://github.com/soomtong/kornflake/releases/download/v0.4.0/Kornflake-0.4.0-x86_64.dmg"
   end
 
   name "Kornflake"
