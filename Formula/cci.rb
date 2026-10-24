@@ -1,15 +1,15 @@
 class Cci < Formula
   desc "Claude Code 대화 복기용 TUI (Claude Code Inspector)"
   homepage "https://github.com/soomtong/claude-code-history-viewer"
-  version "0.3.0"
+  version "0.3.1"
 
   on_arm do
-    url "https://github.com/soomtong/claude-code-history-viewer/releases/download/v0.3.0/cci_0.3.0_darwin_arm64.tar.gz"
-    sha256 "2cd0a43fe45386e5f2db86e4e5188604e8af36231a587c00cc951df0ba0a9703"
+    url "https://github.com/soomtong/claude-code-history-viewer/releases/download/v0.3.1/cci_0.3.1_darwin_arm64.tar.gz"
+    sha256 "0269ecd5a72646614b8cb48e6e35055a8fb87689b09bc55b7cadfa5b4b13f036"
   end
   on_intel do
-    url "https://github.com/soomtong/claude-code-history-viewer/releases/download/v0.3.0/cci_0.3.0_darwin_amd64.tar.gz"
-    sha256 "6228ca56b7dfa63b2df5fb088f5a22ec7527cd5bfaf905658f7ba7a1acbafa23"
+    url "https://github.com/soomtong/claude-code-history-viewer/releases/download/v0.3.1/cci_0.3.1_darwin_amd64.tar.gz"
+    sha256 "1ea71446fd544b7723037013d9eb5aaca10ae72adbe434f46e79a23eb510812b"
   end
 
   def install
